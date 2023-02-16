@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void figura(String[] args) {
         int visota = Integer.parseInt(args[0]);
         int shirina = Integer.parseInt(args[1]);
         String text1 = "Введіть фігуру : 1 - прямокутник, 2- прямокутний трикутник, 3- зворотній прямокутний трикутник, 4-трикутник.";
