@@ -6,7 +6,7 @@ import java.util.Collections;
 import static java.util.Arrays.*;
 import static java.util.Collections.*;
 
-public class Main {
+public class masiv {
     public static void main(String[] args) {
         int[] inp = new int[args.length];
         for (int i = 0; i < args.length; i++) {
