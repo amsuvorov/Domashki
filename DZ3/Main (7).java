@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void tovari(String[] args) {
         int price = Integer.parseInt(args[0]);
         System.out.println("Введіть кількість товарy");
         Scanner scan = new Scanner(System.in);
