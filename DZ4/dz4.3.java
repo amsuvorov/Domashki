@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void zarplata(String[] args) {
 
         int payHour = Integer.parseInt(args[0]);
         int rent = Integer.parseInt(args[1]);
