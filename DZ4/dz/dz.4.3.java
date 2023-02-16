@@ -1,15 +1,18 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void kredit(String[] args) {
         System.out.println("Введіть суму Кредиту");
         Scanner scan = new Scanner(System.in);
         double obSum = scan.nextInt();
+        
         System.out.println("Введіть відсоток на залішок");
         Scanner scan2 = new Scanner(System.in);
         double vidst = scan2.nextInt();
+        
         System.out.println("Якщо бажаєте розрахувати кількість платежів натисніть -1,якщо сумму одного платежа натисніть -2.");
         Scanner scan3 = new Scanner(System.in);
+        
         int vibor;
         vibor = scan3.nextInt();
 
