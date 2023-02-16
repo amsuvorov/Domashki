@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Введіть число");
         Scanner scan = new Scanner(System.in);
         int chislo = scan.nextInt();
+        
         if (chislo % 2 == 0) {
             System.out.println("Парне");
         } else {
@@ -16,6 +17,7 @@ public class Main {
         } else if (chislo < -1) {
             System.out.println("Від'ємне");
         }
+        
         Integer integer = chislo;
         BigInteger bigInteger = BigInteger.valueOf(integer);
         boolean probablePrime = bigInteger.isProbablePrime((int) Math.log(integer));
