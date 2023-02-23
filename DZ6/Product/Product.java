@@ -1,9 +1,9 @@
-public class product {
+public class Product {
     String Name;
     String artNumber;
     float price;
     String description;
-    float stock;
+    boolean stock;
 
     public String getName() {
         return Name;
@@ -38,11 +38,11 @@ public class product {
         this.description = description;
     }
 
-    public float getStock() {
+    public boolean getStock() {
         return stock;
     }
 
-    public void setStock(float stock) {
+    public void setStock(boolean stock) {
         this.stock = stock;
     }
 }
