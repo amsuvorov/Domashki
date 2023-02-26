@@ -1,7 +1,7 @@
 package employee;
 
 public class Employee {
-    String firstName = fName;
+    String firstName;
     String lastName;
     String profession;
     float cash;
