@@ -9,17 +9,10 @@ public class Product {
         return Name;
     }
 
-    public void setName(String name) {
-        Name = name;
-    }
-
     public String getArtNumber() {
         return artNumber;
     }
 
-    public void setArtNumber(String artNumber) {
-        this.artNumber = artNumber;
-    }
 
     public float getprice() {
         return price;
