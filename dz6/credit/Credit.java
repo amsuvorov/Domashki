@@ -3,7 +3,7 @@ package credit;
 public class Credit {
     double amount;
     double interest;
-    public double payment;
+    double payment;
     double amountOfPayment;
 
     public Credit(double amount, double interest, double payment) {
@@ -12,7 +12,7 @@ public class Credit {
         this.payment = payment;
         this.amountOfPayment = ((amount / payment * (payment / interest)));
     }
-
+// использовал инт чтобы другое имя не писать в amountOfPayment
     public Credit(double amount, double interest, int amountOfPayment) {
         this.amount = amount;
         this.interest = interest;
